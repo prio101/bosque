@@ -18,3 +18,28 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+
+## Objective:
+
+This project is aimed to add different smaller features related to the Agriculture and Farming.
+Intended to keep this application OpenSource.
+
+## Installation:
+`Will be added`
+
+
+
+## Feature List:
+- [ ] Weather Forecast based on location. 
+- [ ] Air Pollution meter
+- [ ] Soil Measurement
+- [ ] Flood or Drought Warning
+- [ ] TODO list for the day
+- [ ] Barn Management *
+- [ ] Field Fertilizing Management *
+- [ ] Crop Medication tracking *
+- [ ] Collect dataset to predict crop production *
+
+
+'*' = Need exploring real world problems
