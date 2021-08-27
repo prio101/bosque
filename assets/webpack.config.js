@@ -28,11 +28,15 @@ module.exports = (env, options) => {
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.(j|t)sx?$/,
           exclude: /node_modules/,
-          use: {
-            loader: 'babel-loader'
-          }
+          use:[ {
+                  loader: 'babel-loader'
+                },
+                {
+                  loader: 'ts-loader'
+                }
+          ]
         },
         {
           test: /\.[s]?css$/,
@@ -43,6 +47,9 @@ module.exports = (env, options) => {
           ],
         }
       ]
+    },
+    resolve: {
+      extensions: [".ts", ".tsx", ".js", ".jsx"]
     },
     plugins: [
       new MiniCssExtractPlugin({ filename: '../css/app.css' }),
