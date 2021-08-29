@@ -74,3 +74,6 @@ config :phoenix, :stacktrace_depth, 20
 
 # Initialize plugs at runtime for faster development compilation
 config :phoenix, :plug_init_mode, :runtime
+
+# OpenWeather + EXOWM api key
+config :ex_owm, api_key: "68b0ea1b81993983de3f76a51f646ef6"

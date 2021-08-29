@@ -35,3 +35,9 @@ npm-debug.log
 
 # node modules
 /node_modules
+
+# env
+env
+
+# secrets
+**/*.secret.exs
