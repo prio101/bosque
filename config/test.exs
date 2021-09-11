@@ -20,3 +20,6 @@ config :bosque, BosqueWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+# OpenWeather + EXOWM api key
+config :ex_owm, api_key: "68b0ea1b81993983de3f76a51f646ef6"
