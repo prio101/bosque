@@ -10,4 +10,4 @@ jobs:
           otp-version: '24'
           gleam-version: '0.16'
           rebar3-version: '3.16'
-      - run: rebar3 ct
+      - run: rebar3 ct && mix deps.get && mix test
