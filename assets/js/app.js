@@ -16,6 +16,7 @@ import "phoenix_html"
 import React from "react";
 import ReactDOM from "react-dom";
 import Greeter from "../js/greeter";
+import DashBoard from "./src/dashboard";
 
-const greeting = document.getElementById("hello");
-ReactDOM.render(<Greeter name="Bosque" />, greeting);
+const app = document.getElementById("app");
+ReactDOM.render(<DashBoard />, app);
