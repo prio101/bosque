@@ -18,5 +18,6 @@ import ReactDOM from "react-dom";
 import Greeter from "../js/greeter";
 import DashBoard from "./src/dashboard";
 
+
 const app = document.getElementById("app");
 ReactDOM.render(<DashBoard />, app);
