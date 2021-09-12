@@ -1,4 +1,5 @@
 import React from "react";
+import WeatherInfo from "../src/Components/WeatherInfo";
 
 interface DashboardProps {
   title: String;
@@ -10,7 +11,7 @@ const DashBoard: React.FC<DashboardProps> = (props: DashboardProps) => {
   return(
     <>
       <div className="flex 
-                      flex-row 
+                      flex-col 
                       flex-1 
                       min-h-screen">
         <div className="m-2 flex 
@@ -22,6 +23,7 @@ const DashBoard: React.FC<DashboardProps> = (props: DashboardProps) => {
                         justify-start">
            {title} Dashboard
         </div>
+        <WeatherInfo cityName=""/>
       </div>
     </>
   )
